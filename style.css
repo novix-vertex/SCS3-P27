@@ -24,8 +24,8 @@ main {
 
 header {
     background: url('./assets/images/AlpineBerry.webp');
-    background-size: cover;
-    background-position: center;
+    background-size: 135%;
+    background-position: 50% 25%;
     height: 95vh;
 }
 
