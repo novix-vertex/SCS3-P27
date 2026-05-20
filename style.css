@@ -34,7 +34,7 @@ header .offer-strip {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-block: 0.5rem;
+    padding-block: 0.45rem;
 }
 
 header .offer-strip h3 {
@@ -64,25 +64,26 @@ nav {
     height: 4rem;
     box-shadow: 0 10px 10px #201C1A22;
 }
-nav .nav-left{
-    width:30%;
+
+nav .nav-left {
+    width: 30%;
 }
 
 nav .nav-left ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 1rem;
+    gap: 1.6rem;
     font-size: 1rem;
 }
 
 nav .nav-left ul li {
     list-style: none;
     cursor: pointer;
-}
-
-nav .nav-left ul li i {
-    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 nav .nav-left ul li .arrow {
@@ -90,10 +91,12 @@ nav .nav-left ul li .arrow {
     border: 1px solid #201C1A;
     border-radius: 50%;
     color: #201C1A;
+    font-size: 1rem;
 }
 
 nav .nav-left ul li .smile {
     color: #FFB500;
+    font-size: 1.5rem;
 }
 
 nav .nav-left ul li a {
