@@ -1,0 +1,152 @@
+@font-face {
+    font-family: roboto-mono;
+    src: url('./assets/fonts/RobotoMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: reckless;
+    src: url('./assets/fonts/RecklessCondensedS-TRIAL-Book.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: reckless;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fbf9eb;
+}
+
+
+header {
+    background: url('./assets/images/AlpineBerry.webp');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+header .offer-strip {
+    background-color: #2A2857;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 0.5rem;
+}
+
+header .offer-strip h3 {
+    font-family: roboto-mono;
+    font-size: 0.75rem;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+header .navbar {
+    padding: 1rem;
+}
+
+nav {
+    width: 100%;
+    background-color: #fffefb;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1.25rem;
+    border: 1px solid #201C1A;
+    border-radius: 0.75rem;
+    height: 4rem;
+    box-shadow: 0 10px 10px #201C1A22;
+}
+nav .nav-left{
+    width:30%;
+}
+
+nav .nav-left ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+nav .nav-left ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+nav .nav-left ul li i {
+    font-size: 1.5rem;
+}
+
+nav .nav-left ul li .arrow {
+    background: #c0dbff;
+    border: 1px solid #201C1A;
+    border-radius: 50%;
+    color: #201C1A;
+}
+
+nav .nav-left ul li .smile {
+    color: #FFB500;
+}
+
+nav .nav-left ul li a {
+    text-decoration: none;
+    color: #201C1A;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+nav .nav-logo {
+    object-fit: contain;
+}
+
+nav .nav-right ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav .nav-right ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+nav .nav-right ul li a {
+    font-family: roboto-mono;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: #201C1A;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+nav .nav-right ul li .cart-ic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .nav-right ul li i {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+nav .nav-right ul li span {
+    font-size: 0.8rem;
+    background-color: #FFB500;
+    border: 1px solid #4F3C15;
+    padding: 0.2rem 0.4rem;
+    border-radius: 50%;
+    margin-left: -10px;
+    font-weight: bold;
+}
