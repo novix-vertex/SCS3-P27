@@ -8,6 +8,16 @@
     src: url('./assets/fonts/RecklessCondensedS-TRIAL-Book.woff');
 }
 
+@font-face {
+    font-family: figtree;
+    src: url('./assets/fonts/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2');
+}
+
+@font-face {
+    font-family: midnight;
+    src: url('./assets/fonts/midnight-sans-rd-12-medium-trial.otf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +37,62 @@ header {
     background-size: 135%;
     background-position: 50% 25%;
     height: 95vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid #201C1A;
+
+    position: relative;
+}
+
+header .header-top,
+header .header-bottom {
+    width: 100%;
+}
+
+header .header-bottom {
+    color: #fbf9fb;
+    width: 37%;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}
+
+header .header-bottom h1 {
+    font-size: 5.25rem;
+    font-weight: 400;
+}
+
+header .header-bottom p {
+    font-family: figtree;
+    font-size: 1.125rem;
+}
+
+header .header-bottom .shop-now {
+    background: #2A2857;
+    color: #fbf9eb;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.9rem 3.7rem;
+    border-radius: 2rem;
+    font-family: figtree;
+}
+
+header .move-down-arrow {
+    background: #2A2857;
+    padding: 1rem;
+    color: #fbf9eb;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    right: 1.5rem;
+    bottom: -1.5rem;
 }
 
 header .offer-strip {
