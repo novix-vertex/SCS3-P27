@@ -219,3 +219,21 @@ nav .nav-right ul li span {
     margin-left: -10px;
     font-weight: bold;
 }
+
+.catchy-line {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 4rem;
+
+}
+
+.catchy-line h2 {
+    color: #201C1A;
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+    width:60%;
+
+}
