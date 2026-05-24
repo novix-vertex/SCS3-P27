@@ -220,7 +220,7 @@ nav .nav-right ul li span {
     font-weight: bold;
 }
 
-.catchy-line {
+.best-sellers-catchy-line {
 
     display: flex;
     align-items: center;
@@ -229,7 +229,7 @@ nav .nav-right ul li span {
 
 }
 
-.catchy-line h2 {
+.best-sellers-catchy-line h2 {
     color: #201C1A;
     font-size: 4rem;
     font-weight: 300;
@@ -436,4 +436,41 @@ nav .nav-right ul li span {
     padding: 0.9rem 3.7rem;
     border-radius: 2rem;
     font-family: figtree;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:2rem;
+    padding: 4rem 15rem;
+}
+
+.discover-catchy-line {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.discover-catchy-line h2 {
+    color: #201C1A;
+    font-size: 4rem;
+    font-weight: 300;
+    width: 80%;
+}
+
+
+.discover .discover-txt .title {
+    background-color: #FF7F31;
+    text-transform: uppercase;
+    border: 1px solid #201C1A;
+    padding: 0.2rem;
+    transform: rotate(-2deg);
+    font-size: 3.75rem;
+    font-family: midnight;
+    font-weight: 500;
+    line-height: 3.75rem;
+    border-radius: 0.5rem;
 }
