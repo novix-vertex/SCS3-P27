@@ -240,3 +240,174 @@ nav .nav-right ul li span {
 .catchy-line h2 span {
     font-style: italic;
 }
+
+.best-sellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 4rem;
+}
+
+.best-sellers .title {
+    background-color: #DAAEEA;
+    text-transform: uppercase;
+    border: 1px solid #201C1A;
+    padding: 0.2rem;
+    transform: rotate(-2deg);
+    font-size: 3.75rem;
+    font-family: midnight;
+    font-weight: 500;
+    line-height: 3.75rem;
+    border-radius: 0.5rem;
+}
+
+.best-sellers .cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.best-sellers .cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.2rem;
+    width: 22%;
+}
+
+.best-sellers .cards .card .card-img {
+    border: 1px solid #201C1A;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    gap: 0rem;
+}
+
+
+.best-sellers .cards .card .card-img .p-image {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 2rem;
+}
+
+.best-sellers .cards .card .card-img .p-image img {
+    width: 80%;
+}
+
+.best-sellers .cards .card .card-img .car-top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.best-sellers .cards .card .card-img .car-top-content h3 {
+    font-family: midnight;
+    text-transform: uppercase;
+    background: #fff;
+    color: #201C1A;
+    border: 1px solid #201C1A;
+    font-size: 1.3rem;
+    width: fit-content;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    font-weight: 500;
+}
+
+.best-sellers .cards .card .card-img .car-top-content .rating {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-sellers .cards .card .card-img .card-bottom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.best-sellers .cards .card .card-img .car-top-content .rating i,
+.best-sellers .cards .card .card-img .car-top-content .rating span {
+    font-family: figtree;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.best-sellers .cards .card .card-img .add-bt {
+    font-family: figtree;
+    background: #fff;
+    color: #201C1A;
+    border: 1px solid #201C1A;
+    border-radius: 0.6rem;
+    padding: 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    height: 3rem;
+    width: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-sellers .cards .card .card-img .add-bt i,
+.best-sellers .cards .card .card-img .add-bt span {
+    font-family: figtree;
+}
+
+.best-sellers .cards .card1 .card-img {
+    background-color: #c1ee91;
+}
+
+.best-sellers .cards .card2 .card-img {
+    background-color: #FFD884;
+}
+
+.best-sellers .cards .card3 .card-img {
+    background-color: #b0e8c1;
+}
+
+.best-sellers .cards .card4 .card-img {
+    background-color: #C1E4F8;
+}
+
+.best-sellers .cards .card5 .card-img {
+    background-color: #C0E571;
+}
+
+.best-sellers .cards .card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+    padding-block: 1.2rem;
+}
+
+.best-sellers .cards .card .card-content h3 {
+    font-family: reckless;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.best-sellers .cards .card .card-content h4,
+.best-sellers .cards .card .card-content p {
+    font-family: figtree;
+    font-size: 0.87;
+    font-weight: 400;
+}
