@@ -247,7 +247,7 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: center;
 
-    padding-top: 4rem;
+    padding-block: 4rem;
 }
 
 .best-sellers .title {
@@ -315,6 +315,7 @@ nav .nav-right ul li span {
 .best-sellers .cards .card .card-img .p-image img {
     width: 70%;
     transition: all ease 0.3s;
+    cursor: pointer;
 }
 
 .best-sellers .cards .card .card-img .p-image img:hover {
@@ -425,4 +426,14 @@ nav .nav-right ul li span {
     font-family: figtree;
     font-size: 0.87;
     font-weight: 400;
+}
+
+.best-sellers .explore-all {
+    background: #2A2857;
+    color: #fbf9eb;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.9rem 3.7rem;
+    border-radius: 2rem;
+    font-family: figtree;
 }
