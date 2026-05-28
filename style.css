@@ -640,9 +640,16 @@ nav .nav-right ul li span {
 }
 
 .origins button {
-    padding: 1rem 3rem;
+    padding: 0.7rem 3rem;
     background-color: #fff;
     font-family: figtree;
     font-size: 1.125rem;
     border-radius: 2rem;
+    cursor: pointer;
+    border: 1px solid #201C1A;
+}
+
+.origins button:hover {
+    background-color: #2A2857;
+    color: #fff;
 }
