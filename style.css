@@ -887,7 +887,7 @@ nav .nav-right ul li span {
     opacity: 0.9;
     font-size: 1.375rem;
     font-weight: 400;
-    width:30vw;
+    width: 30vw;
 }
 
 .our-cafe .right .learn-more {
@@ -907,7 +907,44 @@ nav .nav-right ul li span {
     color: #fbf9eb;
 }
 
+.our-lattes {
+    background-color: #9F6429;
+    width: 100%;
+}
 
+.our-lattes .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 4rem;
+}
+
+.our-lattes .top .lattes-txt .title {
+    background-color: #ffcb96;
+    text-transform: uppercase;
+    border: 1px solid #201C1A;
+    padding: 0.2rem;
+    transform: rotate(-2deg);
+    font-size: 3.75rem;
+    font-family: midnight;
+    font-weight: 500;
+    line-height: 3.75rem;
+    border-radius: 0.5rem;
+}
+
+.our-lattes .top h3 {
+    font-family: midnight;
+    font-size: 80px;
+    color: #fff;
+}
+
+.our-lattes .top h5 {
+    font-family: roboto-mono;
+    font-size: 14px;
+    color: #fff;
+}
 
 .journal {
     display: flex;
