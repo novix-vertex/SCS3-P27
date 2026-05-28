@@ -845,6 +845,69 @@ nav .nav-right ul li span {
     font-size: 2rem;
 }
 
+.our-cafe {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.our-cafe .left,
+.our-cafe .right {
+    width: 50%;
+    height: 100%;
+}
+
+.our-cafe .left {
+    background-image: url('./assets/images/Our-cafe-img.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.our-cafe .right {
+    background-color: #2A2857;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 4rem;
+}
+
+.our-cafe .right h2 {
+    font-weight: 400;
+    font-size: 5.25rem;
+    color: #fff;
+}
+
+
+.our-cafe .right h4 {
+    font-family: figtree;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 1.375rem;
+    font-weight: 400;
+    width:30vw;
+}
+
+.our-cafe .right .learn-more {
+    background: #fff;
+    color: #201C1A;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.8rem 4rem;
+    border-radius: 2rem;
+    font-family: figtree;
+    cursor: pointer;
+    border: 1px solid #201C1A;
+}
+
+.our-cafe .right .learn-more:hover {
+    background: #2A2857;
+    color: #fbf9eb;
+}
+
+
 
 .journal {
     display: flex;
@@ -1035,7 +1098,7 @@ nav .nav-right ul li span {
 .about-us {
     width: 100%;
     height: 100vh;
-    background-image: url('./assets/images/our-cafe-background.webp');
+    background-image: url('./assets/images/about-us-background.webp');
     background-size: 130%;
     background-position: 30% 40%;
 }
