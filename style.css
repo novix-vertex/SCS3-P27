@@ -1032,6 +1032,75 @@ nav .nav-right ul li span {
     color: #201C1A;
 }
 
+.about-us {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/images/our-cafe-background.webp');
+    background-size: 130%;
+    background-position: 30% 40%;
+}
+
+.about-us .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.about-us .left {
+    height: 90vh;
+    width: 28vw;
+    background-color: #f26412;
+    border-radius: 1rem;
+    border: 1px solid #201C1A;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+}
+
+.about-us .left h2 {
+    font-weight: 400;
+    font-size: 3.75rem;
+    color: #fff;
+    width: 15vw;
+}
+
+.about-us .left .bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.about-us .left .bottom h4 {
+    font-family: figtree;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+
+.about-us .left .bottom .about {
+    background: #fff;
+    color: #201C1A;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.8rem 4rem;
+    border-radius: 2rem;
+    font-family: figtree;
+    cursor: pointer;
+    border: 1px solid #201C1A;
+}
+
+.about-us .left .bottom .about:hover {
+    background: #2A2857;
+    color: #fbf9eb;
+}
+
 footer {
     background-color: #C0DBFF;
     padding-block: 2rem;
