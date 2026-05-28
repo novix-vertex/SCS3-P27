@@ -535,6 +535,12 @@ nav .nav-right ul li span {
     color: #000;
     font-size: 1.9rem;
     font-weight: 400;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.tags-section .tags button:hover {
+    background-color: #A2c9fc;
 }
 
 .origins {
