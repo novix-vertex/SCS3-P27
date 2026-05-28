@@ -716,7 +716,7 @@ nav .nav-right ul li span {
 
 .reviews .cards .card {
     width: 18vw;
-    height:60vh;
+    height: 60vh;
     border: 1px solid #201C1A;
     border-radius: 0.8rem;
 
@@ -1028,5 +1028,60 @@ nav .nav-right ul li span {
     background: #fff;
     color: #201C1A;
     border: 1px solid #201C1A;
+}
 
+footer{
+    background-color: #C0DBFF;
+}
+
+footer .footer-center {
+    padding: 2rem;
+}
+
+footer .footer-center .center-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+    border-radius: 0.7rem;
+    background-color: #2A2857;
+    padding:1rem;
+}
+
+footer .footer-center .center-content .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+footer .footer-center .center-content .heading h4 {
+    font-size: 1.5rem;
+    color: #fbf9eb;
+    font-weight: 400;
+}
+
+footer .footer-center .center-content .heading ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: flex-start;
+    gap:0.2rem;
+}
+footer .footer-center .center-content .heading ul li {
+    list-style-type: none;
+}
+
+footer .footer-center .center-content .heading ul li a {
+    font-family: figtree;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #fbf9eb;
+    opacity: 0.4;
+
+    text-decoration: none;
 }
