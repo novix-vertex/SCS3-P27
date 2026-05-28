@@ -451,7 +451,7 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding: 4rem 15rem;
+    padding: 4rem 19rem;
 }
 
 .discover-catchy-line {
@@ -716,10 +716,132 @@ nav .nav-right ul li span {
 
 .reviews .cards .card {
     width: 18vw;
-    aspect-ratio: 9/13;
+    height:60vh;
     border: 1px solid #201C1A;
     border-radius: 0.8rem;
+
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.reviews .cards .card .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    padding: 1rem;
+}
+
+.reviews .cards .card .center h3,
+.reviews .cards .card .center h6 {
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.reviews .cards .card .center h6 {
+    font-family: figtree;
+    font-size: 0.875rem;
+    opacity: 0.6;
+}
+
+.reviews .cards .card .bottom {
+    border: 1px solid #201C1A;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.4rem;
+    padding-inline: 1rem;
+}
+
+.reviews .cards .card .bottom img {
+    width: 45px;
+    height: auto;
+    padding-block: 1rem;
+    object-fit: contain;
+}
+
+.reviews .cards .card .bottom .separator {
+    width: 1px;
+    background: #201C1A;
+    height: 100%;
+}
+
+.reviews .cards .card .bottom h3 {
+    font-family: roboto-mono;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0.8rem;
+    padding-block: 1rem;
+    color: #201C1A;
+}
+
+.reviews .cards .card .bottom button {
+    font-family: figtree;
+    font-size: 1.125rem;
+    font-weight: 400;
+    background: #fff;
+    border: 1px solid #201C1A;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.reviews .cards .card1 .bottom {
+    background-color: #EA6D44;
+}
+
+.reviews .cards .card1 .bottom h3 {
+    color: #fff;
+}
+
+.reviews .cards .card2 .bottom {
+    background-color: #73BC25;
+}
+
+.reviews .cards .card3 .bottom {
     background-color: #FFB500;
+}
+
+.reviews .cards .card4 .bottom {
+    background-color: #8BC045;
+}
+
+.reviews .cards .card5 .bottom {
+    background-color: #C790DB;
+}
+
+.reviews .cards .card1 {
+    background-color: #f5a58a;
+    font-size: 2rem;
+}
+
+
+.reviews .cards .card2 {
+    background-color: #abdf74;
+    font-size: 1.5rem;
+}
+
+.reviews .cards .card3 {
+    background-color: #ffd265;
+    font-size: 1.5rem;
+}
+
+.reviews .cards .card4 {
+    background-color: #ade674;
+    font-size: 2rem;
+}
+
+.reviews .cards .card5 {
+    background-color: #d9c2e1;
+    font-size: 2rem;
 }
 
 
@@ -729,7 +851,7 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding-block: 6rem;
+    padding: 6rem 4rem;
 }
 
 .journal .journal-txt {
@@ -774,7 +896,7 @@ nav .nav-right ul li span {
     gap: 1rem;
     width: 100%;
     padding-block: 4rem;
-    padding-left:1rem;
+    padding-left: 1rem;
 }
 
 .journal .cards {
