@@ -408,7 +408,7 @@ nav .nav-right ul li span {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.5rem;
     padding-block: 1.2rem;
     height: 200px;
@@ -424,7 +424,7 @@ nav .nav-right ul li span {
 .best-sellers .cards .card .card-content h4,
 .best-sellers .cards .card .card-content p {
     font-family: figtree;
-    font-size: 0.87;
+    font-size: 0.875rem;
     font-weight: 400;
 }
 
@@ -517,7 +517,7 @@ nav .nav-right ul li span {
     font-size: 0.875rem;
     text-transform: uppercase;
     padding-block: 6rem 2rem;
-    color:#201C1A;
+    color: #201C1A;
     font-weight: 400;
 }
 
