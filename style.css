@@ -443,12 +443,11 @@ nav .nav-right ul li span {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap:2rem;
+    gap: 2rem;
     padding: 4rem 15rem;
 }
 
 .discover-catchy-line {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -461,6 +460,9 @@ nav .nav-right ul li span {
     width: 80%;
 }
 
+.discover-catchy-line h2 span {
+    font-style: italic;
+}
 
 .discover .discover-txt .title {
     background-color: #FF7F31;
@@ -473,4 +475,64 @@ nav .nav-right ul li span {
     font-weight: 500;
     line-height: 3.75rem;
     border-radius: 0.5rem;
+}
+
+.discover .input-box {
+    border: 1px solid #201C1A;
+    border-radius: 0.6rem;
+    padding: 1.25rem 2rem;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.discover .input-box input {
+    background: transparent;
+    font-size: 2rem;
+    font-weight: 400;
+    outline: 0;
+    border: none;
+    width: 18vw;
+    flex: 1;
+}
+
+.discover .input-box input:focus {
+    width: 55vw;
+}
+
+.discover .input-box i {
+    font-size: 2rem;
+    color: #201C1A;
+    opacity: 0.6;
+    font-weight: 100;
+    display: none;
+}
+
+.discover .input-box input:not(:placeholder-shown)+i {
+    display: inline-block;
+}
+
+.tags-section h5 {
+    font-family: figtree;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding-block: 6rem 2rem;
+    color:#201C1A;
+    font-weight: 400;
+}
+
+.tags-section .tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tags-section .tags button {
+    border: 1px solid #201C1A;
+    border-radius: 0.6rem;
+    background-color: #DAEAFF;
+    padding: 0.2rem 1rem;
+    color: #000;
+    font-size: 1.9rem;
+    font-weight: 400;
 }
