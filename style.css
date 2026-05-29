@@ -1529,7 +1529,8 @@ footer .footer-center .center-content .heading ul li a {
     text-transform: uppercase;
 }
 
-@media (max-width:1200px) {
+
+@media (max-width:1500px) {
     * {
         max-width: 100%;
     }
@@ -1569,6 +1570,11 @@ footer .footer-center .center-content .heading ul li a {
         height: 150vh;
     }
 
+    .about-us {
+        height: 160vh;
+        background-size: cover;
+    }
+
     .our-lattes .bottom .cards .card .right h2 {
         width: 14vw;
         font-size: 3rem;
@@ -1577,6 +1583,86 @@ footer .footer-center .center-content .heading ul li a {
     .our-lattes .bottom .cards {
         height: auto;
     }
+}
+
+@media (max-width:1024px) {
+    * {
+        max-width: 100%;
+    }
+
+    header .header-bottom {
+        width: 46vw;
+    }
+
+    .about-us {
+        height: 160vh;
+        background-size: cover;
+        background-position: 15% 20%;
+    }
+    
+
+    .about-us .left {
+        width: 35vw;
+    }
+
+    .about-us .left h2 {
+        font-size: 3rem;
+        width: 24vw;
+    }
+
+    .about-us .content .left {
+        gap: 2rem;
+    }
+
+    .our-lattes .bottom .cards .card .right h2 {
+        width: 21vw;
+    }
+
+    .our-lattes .bottom .cards .card .right .shop-now {
+        white-space: nowrap;
+        padding: 0.8rem 3rem;
+    }
+
+    .our-cafe .right h2 {
+        font-size: 3.5rem;
+    }
+
+    .reviews-catchy-line h2 {
+        width: 100%;
+    }
+
+    .discover-catchy-line h2 {
+        width: 100%;
+    }
+
+    .discover {
+        padding-inline: 8rem;
+    }
+
+    .reviews .reviews-txt,
+    .reviews-catchy-line,
+    .journal .journal-txt,
+    .journal-catchy-line {
+        padding-inline: 8rem;
+    }
+
+    header {
+        height: 160vh;
+    }
+
+    nav .nav-right ul .links {
+        display: none;
+    }
+
+    nav .nav-left {
+        width: 15%;
+    }
+
+    nav .nav-left ul li a {
+        font-size: 1rem;
+    }
+
+
 }
 
 @media (max-width:640px) {
