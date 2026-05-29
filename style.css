@@ -1539,6 +1539,24 @@ footer .footer-center .center-content .heading ul li a {
         padding: 2rem;
     }
 
+    .our-lattes .bottom .card {
+        position: relative;
+    }
+
+    .arrow-left,
+    .arrow-right {
+        position: absolute;
+        top: 50%;
+    }
+
+    .arrow-left {
+        left: 0.5rem;
+    }
+
+    .arrow-right {
+        right: 0.5rem;
+    }
+
     .reviews .reviews-txt,
     .reviews-catchy-line,
     .journal .journal-txt,
@@ -1560,15 +1578,22 @@ footer .footer-center .center-content .heading ul li a {
         display: none;
     }
 
+    .our-lattes .bottom .cards .card .right {
+        align-items: center;
+        gap:1.5rem;
+    }
+
     .our-lattes .bottom .cards .card .left,
     .our-lattes .bottom .cards .card .right {
         width: 100%;
         padding: 1rem;
+        text-align: center;
     }
 
     .our-lattes .bottom .cards .card .right h2 {
         font-size: 2.5rem;
         width: 100%;
+
     }
 
     .our-lattes .bottom .cards .card .right h4 {
@@ -1586,17 +1611,13 @@ footer .footer-center .center-content .heading ul li a {
         padding: 0.5rem 3rem;
         border-radius: 2rem;
         white-space: nowrap;
+        width:100%;
     }
 
     .our-lattes .bottom .cards {
         height: 100vh;
     }
 
-    .our-lattes .bottom .cards i {
-        height: 1.5rem;
-        width: 1.5rem;
-        font-size: 1rem;
-    }
 
     .our-lattes .bottom {
         padding: 0.5rem;
@@ -1610,6 +1631,9 @@ footer .footer-center .center-content .heading ul li a {
 
     .our-lattes .bottom .cards .card .right {
         padding: 2rem;
+    }
+    .our-lattes .top{
+        gap:2rem;
     }
 
     .our-lattes .top .latte-ic {
