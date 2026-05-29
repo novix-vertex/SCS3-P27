@@ -1568,10 +1568,13 @@ footer .footer-center .center-content .heading ul li a {
         font-size: 2rem;
         line-height: 2rem;
     }
-.our-lattes .bottom .cards .card .left, .our-lattes .bottom .cards .card .right{
-    width:100%;
-    padding:1rem;
-}
+
+    .our-lattes .bottom .cards .card .left,
+    .our-lattes .bottom .cards .card .right {
+        width: 100%;
+        padding: 1rem;
+    }
+
     .our-lattes .bottom .cards .card .right h2 {
         font-size: 2.5rem;
         width: 100%;
@@ -1584,7 +1587,7 @@ footer .footer-center .center-content .heading ul li a {
 
     .our-lattes .bottom .cards .card .left img {
         height: 55vh;
-        position:relative;
+        position: relative;
     }
 
     .our-lattes .bottom .cards .card .right .shop-now {
