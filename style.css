@@ -1104,7 +1104,7 @@ nav .nav-right ul li span {
 
 .journal-catchy-line h2 {
     color: #201C1A;
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
     font-weight: 300;
     width: 100%;
 }
@@ -1136,7 +1136,7 @@ nav .nav-right ul li span {
 
     width: 100%;
     padding-block: 4rem;
-    padding-left: 1rem;
+    padding-inline: 1rem;
 }
 
 
@@ -1148,6 +1148,7 @@ nav .nav-right ul li span {
     border: 1px solid #201C1A;
     border-radius: 0.8rem;
     border-radius: 0.8rem;
+    flex-shrink: 1;
 }
 
 .journal .cards .card .content-box {
@@ -1173,11 +1174,15 @@ nav .nav-right ul li span {
 }
 
 .journal .cards .card .img {
-    width: 19vw;
+    width: 19rem;
+    max-width: 20rem;
+    aspect-ratio: 1/1;
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
     flex-shrink: 0;
-    aspect-ratio: 1/1;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .journal .cards .card .img .card-top-content {
@@ -1203,40 +1208,30 @@ nav .nav-right ul li span {
 .journal .cards .card .card1-img {
     background-image: url('./assets/images/journal1.svg');
     background-color: #2A2857;
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: top;
 }
 
 .journal .cards .card .card2-img {
     background-image: url('./assets/images/journal2.jpeg');
     background-color: transparent;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
 .journal .cards .card .card3-img {
     background-image: url('./assets/images/journal3.jpeg');
     background-color: transparent;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
 }
 
 .journal .cards .card .card4-img {
     background-image: url('./assets/images/journal4.svg');
     background-color: #2A2857;
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: top;
 }
 
 .journal .cards .card .card5-img {
     background-image: url('./assets/images/journal5.svg');
     background-color: #2A2857;
-    background-size: contain;
-    background-repeat: no-repeat;
     background-position: top;
 }
 
