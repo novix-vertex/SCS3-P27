@@ -1533,18 +1533,19 @@ footer .footer-center .center-content .heading ul li a {
     position: fixed;
     bottom: 1rem;
     left: 1rem;
-    height:50px;
-    width:50px;
+    height: 50px;
+    width: 50px;
     background-color: #60C6A6;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-svg{
+
+svg {
     width: 30px;
     height: 30px;
-    color:#fff;
+    color: #fff;
 }
 
 @media (max-width:1500px) {
@@ -1672,7 +1673,7 @@ svg{
     }
 
     .our-cafe .right h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .reviews-catchy-line h2 {
@@ -2009,4 +2010,12 @@ svg{
         width: 100%;
     }
 
+    .our-lattes .bottom .cards {
+        height: 100%;
+    }
+
+    .our-cafe .left,
+    .our-cafe .right {
+        height: 100%;
+    }
 }
