@@ -1529,6 +1529,23 @@ footer .footer-center .center-content .heading ul li a {
     text-transform: uppercase;
 }
 
+.floating-ic {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    height:50px;
+    width:50px;
+    background-color: #60C6A6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+svg{
+    width: 30px;
+    height: 30px;
+    color:#fff;
+}
 
 @media (max-width:1500px) {
     * {
@@ -1583,7 +1600,7 @@ footer .footer-center .center-content .heading ul li a {
     .our-lattes .bottom .cards {
         height: auto;
     }
-    
+
     .footer-bottom {
         height: 90vh;
     }
@@ -1700,8 +1717,9 @@ footer .footer-center .center-content .heading ul li a {
     .footer-bottom h6 {
         width: 30vw;
     }
-    .footer-bottom img{
-        height:10vw;
+
+    .footer-bottom img {
+        height: 10vw;
     }
 
 }
