@@ -559,7 +559,7 @@ nav .nav-right ul li span {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: clamp(180vh, 180vh, 240vh);
+    height: clamp(180vh, 240vh, 240vh);
 
     display: flex;
     flex-direction: column;
@@ -1529,6 +1529,56 @@ footer .footer-center .center-content .heading ul li a {
     text-transform: uppercase;
 }
 
+@media (max-width:1200px) {
+    * {
+        max-width: 100%;
+    }
+
+    header {
+        height: 120vh;
+    }
+
+    header .header-bottom h1 {
+        font-size: 3rem;
+    }
+
+    .discover {
+        padding-inline: 10rem;
+    }
+
+    .reviews .reviews-txt,
+    .reviews-catchy-line,
+    .journal .journal-txt,
+    .journal-catchy-line {
+        padding-inline: 10rem;
+    }
+
+    .about-us {
+        height: 150vh;
+    }
+
+    .about-us .left {
+        height: auto;
+    }
+
+    footer .footer-top {
+        height: auto;
+    }
+
+    .our-cafe {
+        height: 150vh;
+    }
+
+    .our-lattes .bottom .cards .card .right h2 {
+        width: 14vw;
+        font-size: 3rem;
+    }
+
+    .our-lattes .bottom .cards {
+        height: auto;
+    }
+}
+
 @media (max-width:640px) {
     * {
         max-width: 100%;
@@ -1579,7 +1629,7 @@ footer .footer-center .center-content .heading ul li a {
 
     .our-lattes .bottom .cards .card .right {
         align-items: center;
-        gap:1.5rem;
+        gap: 1.5rem;
     }
 
     .our-lattes .bottom .cards .card .left,
@@ -1610,7 +1660,7 @@ footer .footer-center .center-content .heading ul li a {
         padding: 0.5rem 3rem;
         border-radius: 2rem;
         white-space: nowrap;
-        width:100%;
+        width: 100%;
     }
 
     .our-lattes .bottom .cards {
@@ -1631,8 +1681,9 @@ footer .footer-center .center-content .heading ul li a {
     .our-lattes .bottom .cards .card .right {
         padding: 2rem;
     }
-    .our-lattes .top{
-        gap:2rem;
+
+    .our-lattes .top {
+        gap: 2rem;
     }
 
     .our-lattes .top .latte-ic {
