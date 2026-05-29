@@ -456,29 +456,24 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding-block: 4rem;
+    padding: 4rem 19rem;
 }
 
 .discover-catchy-line {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-inline: 19rem;
 }
 
 .discover-catchy-line h2 {
     color: #201C1A;
     font-size: clamp(2rem, 5vw, 3.75rem);
     font-weight: 300;
-    width: 80%;
+    width: 90%;
 }
 
 .discover-catchy-line h2 span {
     font-style: italic;
-}
-
-.discover .discover-txt {
-    padding-inline: 19rem;
 }
 
 .discover .discover-txt .title {
@@ -695,7 +690,7 @@ nav .nav-right ul li span {
     color: #201C1A;
     font-size: clamp(2rem, 5vw, 3.75rem);
     font-weight: 300;
-    width: 75%;
+    width: 80%;
 }
 
 .reviews-catchy-line h2 span {
@@ -1537,11 +1532,13 @@ footer .footer-center .center-content .heading ul li a {
 
 @media (max-width:640px) {
     * {
-        outline: 1px solid red;
+        max-width: 100%;
     }
 
-    .discover .discover-txt,
-    .discover-catchy-line,
+    .discover {
+        padding: 2rem;
+    }
+
     .reviews .reviews-txt,
     .reviews-catchy-line,
     .journal .journal-txt,
@@ -1661,7 +1658,7 @@ footer .footer-center .center-content .heading ul li a {
     }
 
     .discover .input-box input:focus {
-        width: 75vw;
+        width: 60vw;
     }
 
     .tags-section h5 {
@@ -1675,10 +1672,6 @@ footer .footer-center .center-content .heading ul li a {
     .origins .top-ic img {
         height: 100px;
         width: 100px;
-    }
-
-    .discover {
-        padding: 2rem;
     }
 
     .our-cafe {
@@ -1791,6 +1784,10 @@ footer .footer-center .center-content .heading ul li a {
 
     .journal .cards {
         padding-block: 2rem;
+    }
+
+    .discover-catchy-line h2 {
+        width: 100%;
     }
 
 }
