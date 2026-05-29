@@ -1268,6 +1268,10 @@ nav .nav-right ul li span {
     background-position: 30% 40%;
 }
 
+.about-us .content .about-img {
+    display: none;
+}
+
 .about-us .content {
     display: flex;
     align-items: center;
@@ -1690,6 +1694,71 @@ footer .footer-center .center-content .heading ul li a {
     }
 
     .our-cafe .right .learn-more {
+        width: 100%;
+    }
+
+    .about-us {
+        background: transparent;
+        height: auto;
+    }
+
+    .about-us .content .about-img {
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        aspect-ratio: 1/1;
+    }
+
+    .about-us .content {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .about-us .left {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        gap: 2rem;
+        border-radius: 0;
+    }
+
+    .about-us .left h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us .left .bottom h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-us .left .bottom .about {
+        width: 100%;
+    }
+
+    footer .footer-top {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+    }
+
+    footer .footer-top .left h2 {
+        font-size: 1.875rem;
+    }
+
+    footer .footer-top .left h3 {
+        width: 100%;
+        font-size: 1.75rem;
+    }
+
+    footer .footer-top .left .input-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    footer .footer-top .left .input-section input,
+    footer .footer-top .left .input-section button {
         width: 100%;
     }
 }
