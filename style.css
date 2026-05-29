@@ -48,6 +48,10 @@ header {
     position: relative;
 }
 
+.burger-menu {
+    display: none;
+}
+
 header .header-top,
 header .header-bottom {
     width: 100%;
@@ -285,8 +289,8 @@ nav .nav-right ul li span {
     justify-content: space-between;
     gap: 0.2rem;
     width: 22%;
+    min-width: 15.625rem;
     flex-shrink: 0;
-    flex-wrap: 0;
 }
 
 .best-sellers .cards .card .card-img {
@@ -946,13 +950,14 @@ nav .nav-right ul li span {
 
 .our-lattes .top h3 {
     font-family: midnight;
-    font-size: 80px;
+    font-size: clamp(3rem, 5vw, 5rem);
     color: #fff;
+    text-align: center;
 }
 
 .our-lattes .top h5 {
     font-family: roboto-mono;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #fff;
 }
 
@@ -1079,7 +1084,7 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding-block:4rem;
+    padding-block: 4rem;
 }
 
 .journal .journal-txt {
@@ -1520,4 +1525,113 @@ footer .footer-center .center-content .heading ul li a {
     letter-spacing: 0.6px;
     line-height: 0.875rem;
     text-transform: uppercase;
+}
+
+@media (max-width:640px) {
+    * {
+        outline: 1px solid red;
+    }
+
+    .discover,
+    .reviews .reviews-txt,
+    .reviews-catchy-line,
+    .journal .journal-txt,
+    .journal-catchy-line {
+        padding-inline: 1rem;
+    }
+
+    .our-cafe .right h2 {
+        font-size: 3rem;
+    }
+
+    .burger-menu {
+        display: inline-block;
+    }
+
+    .nav-left,
+    .nav-right .links {
+        display: none;
+    }
+
+    .journal .journal-txt .title,
+    .our-lattes .bottom .cards .card .right .nice-txt .title,
+    .our-lattes .top .lattes-txt .title,
+    .reviews .reviews-txt .title,
+    .origins .title,
+    .discover .discover-txt .title,
+    .best-sellers .title,
+    .discover .discover-txt .title {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .our-lattes .bottom .cards .card .right h2 {
+        font-size: 2.5rem;
+        width: 28vw;
+    }
+
+    .our-lattes .bottom .cards .card .right h4 {
+        width: 35vw;
+        font-size: 1rem;
+    }
+
+    .our-lattes .bottom .cards .card .left img {
+        height: 55vh;
+    }
+
+    .our-lattes .bottom .cards .card .right .shop-now {
+        font-size: 1rem;
+        padding: 0.5rem 3rem;
+        border-radius: 2rem;
+        white-space: nowrap;
+    }
+
+    .our-lattes .bottom .cards {
+        height: 100vh;
+    }
+
+    .our-lattes .bottom .cards i {
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .our-lattes .bottom {
+        padding: 0.5rem;
+    }
+
+    .our-lattes .bottom .cards .card {
+        padding-inline: 0.5rem;
+    }
+
+    .our-lattes .bottom .cards .card .right {
+        padding: 2rem;
+    }
+
+    .our-lattes .top .latte-ic {
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .best-sellers-catchy-line h2 {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    header {
+        background-position: left;
+    }
+
+    header .header-bottom h1 {
+        font-size: 2.5rem;
+    }
+
+    header .header-bottom {
+        width: 60%;
+        padding: 1.5rem;
+    }
+
+    .best-sellers .cards .card {
+        min-width: 70%;
+    }
 }
