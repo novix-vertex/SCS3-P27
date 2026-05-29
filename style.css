@@ -910,7 +910,7 @@ nav .nav-right ul li span {
 .our-lattes {
     background-color: #9F6429;
     width: 100%;
-    position:relative;
+    position: relative;
 }
 
 .our-lattes .top {
@@ -922,12 +922,13 @@ nav .nav-right ul li span {
     padding: 5rem;
     position: relative;
 }
-.our-lattes .top .latte-ic{
+
+.our-lattes .top .latte-ic {
     position: absolute;
-    right:10vw;
-    top:1rem;
-    height:10vw;
-    width:10vw;
+    right: 10vw;
+    top: 1rem;
+    height: 10vw;
+    width: 10vw;
 }
 
 .our-lattes .top .lattes-txt .title {
@@ -973,21 +974,23 @@ nav .nav-right ul li span {
     justify-content: space-around;
     padding-inline: 2rem;
 }
-.our-lattes .bottom .cards i{
+
+.our-lattes .bottom .cards i {
     background-color: #fff;
-    height:2.6rem;
-    width:2.6rem;
+    height: 2.6rem;
+    width: 2.6rem;
     border-radius: 50%;
     font-size: 2.5rem;
     font-weight: 100;
-    border:1px solid #201C1A;
+    border: 1px solid #201C1A;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
-.our-lattes .bottom .cards i:hover{
-    color:#fff;
+
+.our-lattes .bottom .cards i:hover {
+    color: #fff;
     background-color: #2A2857;
 }
 
@@ -1006,9 +1009,9 @@ nav .nav-right ul li span {
 .our-lattes .bottom .cards .card .left img {
     object-fit: cover;
     object-position: center;
-    position:absolute;
-    bottom:10%;
-    height:62vh;
+    position: absolute;
+    bottom: 10%;
+    height: 62vh;
 }
 
 .our-lattes .bottom .cards .card .right {
@@ -1076,25 +1079,25 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding: 6rem 4rem;
+    padding-block:4rem;
 }
 
 .journal .journal-txt {
-    padding-inline: 15rem;
+    padding-inline: 19rem;
 }
 
 .journal-catchy-line {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-inline: 15rem;
+    padding-inline: 19rem;
 }
 
 .journal-catchy-line h2 {
     color: #201C1A;
     font-size: 3.75rem;
     font-weight: 300;
-    width: 95%;
+    width: 100%;
 }
 
 .journal-catchy-line h2 span {
@@ -1117,19 +1120,16 @@ nav .nav-right ul li span {
 .journal .cards {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
+
+    overflow-x: auto;
+
     width: 100%;
     padding-block: 4rem;
     padding-left: 1rem;
 }
 
-.journal .cards {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    overflow-x: auto;
-}
 
 .journal .cards .card {
     display: flex;
