@@ -467,7 +467,7 @@ nav .nav-right ul li span {
 
 .discover-catchy-line h2 {
     color: #201C1A;
-    font-size: 3.75rem;
+    font-size: clamp(3rem, 5vw, 3.75rem);
     font-weight: 300;
     width: 80%;
 }
@@ -560,7 +560,7 @@ nav .nav-right ul li span {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 240vh;
+    height: clamp(180vh, 180vh, 240vh);
 
     display: flex;
     flex-direction: column;
@@ -599,10 +599,10 @@ nav .nav-right ul li span {
 }
 
 .origins .Attraction-text {
-    font-size: 8.25rem;
+    font-size: clamp(4rem, 5vw, 8.25rem);
     font-family: midnight;
     font-weight: 400;
-    line-height: 8rem;
+    line-height: clamp(4rem, 5vw, 8rem);
     color: #fff;
     text-transform: uppercase;
     width: 40vw;
@@ -611,11 +611,11 @@ nav .nav-right ul li span {
 }
 
 .origins .Attraction-subtext {
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
     color: #fff;
     text-align: center;
     width: 86vw;
-    line-height: 4.313rem;
+    line-height: clamp(2.5rem, 5vw, 4.313rem);
     font-weight: 300;
     letter-spacing: -0.1px;
 }
@@ -672,23 +672,23 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding: 6rem 4rem;
+    padding-block: 6rem;
 }
 
 .reviews .reviews-txt {
-    padding-inline: 15rem;
+    padding-inline: 19rem;
 }
 
 .reviews-catchy-line {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-inline: 15rem;
+    padding-inline: 19rem;
 }
 
 .reviews-catchy-line h2 {
     color: #201C1A;
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
     font-weight: 300;
     width: 75%;
 }
@@ -713,15 +713,18 @@ nav .nav-right ul li span {
 .reviews .cards {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 1rem;
     width: 100%;
     padding-block: 4rem;
+    padding-inline: 1rem;
+    overflow-x: auto;
 }
 
 .reviews .cards .card {
-    width: 18vw;
-    height: 60vh;
+    height: 28rem;
+    width: 18rem;
+
     border: 1px solid #201C1A;
     border-radius: 0.8rem;
 
@@ -953,12 +956,14 @@ nav .nav-right ul li span {
     font-size: clamp(3rem, 5vw, 5rem);
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .our-lattes .top h5 {
     font-family: roboto-mono;
     font-size: 0.875rem;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .our-lattes .bottom {
@@ -973,7 +978,6 @@ nav .nav-right ul li span {
 
 .our-lattes .bottom .cards .card {
     width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -1564,19 +1568,23 @@ footer .footer-center .center-content .heading ul li a {
         font-size: 2rem;
         line-height: 2rem;
     }
-
+.our-lattes .bottom .cards .card .left, .our-lattes .bottom .cards .card .right{
+    width:100%;
+    padding:1rem;
+}
     .our-lattes .bottom .cards .card .right h2 {
         font-size: 2.5rem;
-        width: 28vw;
+        width: 100%;
     }
 
     .our-lattes .bottom .cards .card .right h4 {
-        width: 35vw;
+        width: 100%;
         font-size: 1rem;
     }
 
     .our-lattes .bottom .cards .card .left img {
         height: 55vh;
+        position:relative;
     }
 
     .our-lattes .bottom .cards .card .right .shop-now {
@@ -1602,7 +1610,9 @@ footer .footer-center .center-content .heading ul li a {
 
     .our-lattes .bottom .cards .card {
         padding-inline: 0.5rem;
+        flex-direction: column;
     }
+
 
     .our-lattes .bottom .cards .card .right {
         padding: 2rem;
@@ -1633,5 +1643,55 @@ footer .footer-center .center-content .heading ul li a {
 
     .best-sellers .cards .card {
         min-width: 70%;
+    }
+
+    .discover .input-box input {
+        width: 50vw;
+    }
+
+    .discover .input-box input:focus {
+        width: 75vw;
+    }
+
+    .tags-section h5 {
+        padding: 2rem;
+    }
+
+    .best-sellers {
+        padding: 0.5rem;
+    }
+
+    .origins .top-ic img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .reviews {
+        padding: 2rem;
+    }
+
+    .our-cafe {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .our-cafe .left,
+    .our-cafe .right {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .our-cafe .right {
+        justify-content: center;
+    }
+
+    .our-cafe .right h2,
+    .our-cafe .right h4 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .our-cafe .right .learn-more {
+        width: 100%;
     }
 }
