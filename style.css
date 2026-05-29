@@ -235,7 +235,7 @@ nav .nav-right ul li span {
 
 .best-sellers-catchy-line h2 {
     color: #201C1A;
-    font-size: 4.351rem;
+    font-size: clamp(2.5rem, 5vw, 4.351rem);
     font-weight: 300;
     text-align: center;
     width: 60%;
@@ -260,10 +260,10 @@ nav .nav-right ul li span {
     border: 1px solid #201C1A;
     padding: 0.2rem;
     transform: rotate(-2deg);
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: clamp(2rem, 5vw, 3rem);
     font-family: midnight;
     font-weight: 500;
-    line-height: 3rem;
     border-radius: 0.5rem;
 }
 
@@ -456,18 +456,19 @@ nav .nav-right ul li span {
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
-    padding: 4rem 19rem;
+    padding-block: 4rem;
 }
 
 .discover-catchy-line {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding-inline: 19rem;
 }
 
 .discover-catchy-line h2 {
     color: #201C1A;
-    font-size: clamp(3rem, 5vw, 3.75rem);
+    font-size: clamp(2rem, 5vw, 3.75rem);
     font-weight: 300;
     width: 80%;
 }
@@ -476,16 +477,20 @@ nav .nav-right ul li span {
     font-style: italic;
 }
 
+.discover .discover-txt {
+    padding-inline: 19rem;
+}
+
 .discover .discover-txt .title {
     background-color: #FF7F31;
     text-transform: uppercase;
     border: 1px solid #201C1A;
     padding: 0.2rem;
     transform: rotate(-2deg);
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: clamp(2rem, 5vw, 3rem);
     font-family: midnight;
     font-weight: 500;
-    line-height: 3rem;
     border-radius: 0.5rem;
 }
 
@@ -591,10 +596,10 @@ nav .nav-right ul li span {
     border: 1px solid #201C1A;
     padding: 0.2rem;
     transform: rotate(-2deg);
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: clamp(2rem, 5vw, 3rem);
     font-family: midnight;
     font-weight: 500;
-    line-height: 3rem;
     border-radius: 0.5rem;
 }
 
@@ -703,10 +708,10 @@ nav .nav-right ul li span {
     border: 1px solid #201C1A;
     padding: 0.2rem;
     transform: rotate(-2deg);
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: clamp(2rem, 5vw, 3rem);
     font-family: midnight;
     font-weight: 500;
-    line-height: 3rem;
     border-radius: 0.5rem;
 }
 
@@ -944,10 +949,10 @@ nav .nav-right ul li span {
     border: 1px solid #201C1A;
     padding: 0.2rem;
     transform: rotate(-2deg);
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: clamp(2rem, 5vw, 3rem);
     font-family: midnight;
     font-weight: 500;
-    line-height: 3rem;
     border-radius: 0.5rem;
 }
 
@@ -1039,10 +1044,10 @@ nav .nav-right ul li span {
     border: 1px solid #201C1A;
     padding: 0.2rem;
     transform: rotate(-2deg);
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: clamp(2rem, 5vw, 3rem);
     font-family: midnight;
     font-weight: 500;
-    line-height: 3rem;
     border-radius: 0.5rem;
     color: #201C1A;
     width: fit-content;
@@ -1119,10 +1124,10 @@ nav .nav-right ul li span {
     border: 1px solid #201C1A;
     padding: 0.2rem;
     transform: rotate(-2deg);
-    font-size: 3.75rem;
+    font-size: clamp(2rem, 5vw, 3.75rem);
+    line-height: clamp(2rem, 5vw, 3rem);
     font-family: midnight;
     font-weight: 500;
-    line-height: 3rem;
     border-radius: 0.5rem;
 }
 
@@ -1535,12 +1540,13 @@ footer .footer-center .center-content .heading ul li a {
         outline: 1px solid red;
     }
 
-    .discover,
+    .discover .discover-txt,
+    .discover-catchy-line,
     .reviews .reviews-txt,
     .reviews-catchy-line,
     .journal .journal-txt,
     .journal-catchy-line {
-        padding-inline: 1rem;
+        padding-inline: 2rem;
     }
 
     .our-cafe .right h2 {
@@ -1555,18 +1561,6 @@ footer .footer-center .center-content .heading ul li a {
     .nav-left,
     .nav-right .links {
         display: none;
-    }
-
-    .journal .journal-txt .title,
-    .our-lattes .bottom .cards .card .right .nice-txt .title,
-    .our-lattes .top .lattes-txt .title,
-    .reviews .reviews-txt .title,
-    .origins .title,
-    .discover .discover-txt .title,
-    .best-sellers .title,
-    .discover .discover-txt .title {
-        font-size: 2rem;
-        line-height: 2rem;
     }
 
     .our-lattes .bottom .cards .card .left,
@@ -1628,7 +1622,6 @@ footer .footer-center .center-content .heading ul li a {
 
     .best-sellers-catchy-line h2 {
         width: 100%;
-        font-size: 3rem;
     }
 
     header {
@@ -1684,7 +1677,7 @@ footer .footer-center .center-content .heading ul li a {
         width: 100px;
     }
 
-    .reviews {
+    .discover {
         padding: 2rem;
     }
 
